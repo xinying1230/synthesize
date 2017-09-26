@@ -1,0 +1,312 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  font-size: 0.12rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #F8F8F8; }
+
+.header {
+  width: 100%;
+  height: 0.5rem;
+  background: #fff;
+  position: relative; }
+  .header i {
+    position: absolute;
+    left: 0.15rem;
+    top: 0.1rem;
+    font-size: 0.3rem;
+    color: #828282; }
+  .header h1 {
+    text-align: center;
+    line-height: 0.5rem;
+    font-weight: 400; }
+
+.section {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+.banner {
+  width: 100%;
+  height: 2rem;
+  background: #2361D2;
+  padding-top: 0.2rem;
+  position: relative; }
+  .banner .tou {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; }
+    .banner .tou > img {
+      width: 100%;
+      height: 100%; }
+  .banner .vita {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 0.15rem; }
+    .banner .vita strong {
+      color: #fff;
+      border: 0.01rem #ccc solid;
+      padding: 0.05rem; }
+    .banner .vita .vip {
+      margin-top: 0.2rem; }
+      .banner .vita .vip b {
+        color: #fff;
+        background: #2853AF;
+        padding: 0.05rem 0.1rem;
+        border-radius: 0.1rem;
+        font-weight: 400; }
+        .banner .vita .vip b i {
+          background: #F5CF46;
+          color: #fff;
+          border-radius: 100%; }
+  .banner .act {
+    width: 100%;
+    height: 0.5rem;
+    background: #225CC0;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .banner .act h2 {
+      line-height: 1.5;
+      color: #fff;
+      font-weight: 400;
+      font-size: 0.17rem;
+      padding-left: 0.1rem; }
+    .banner .act p {
+      padding-left: 0.1rem;
+      color: #fff;
+      font-size: 0.18rem; }
+    .banner .act b {
+      position: absolute;
+      color: #fff;
+      right: 0.13rem;
+      top: 0.15rem; }
+      .banner .act b i {
+        padding: 0 0.05rem;
+        font-size: 0.16rem; }
+        .banner .act b i:last-child {
+          font-size: 0.2rem; }
+
+.inquiry {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  display: -webkit-flex; }
+  .inquiry dl {
+    -webkit-flex: 1;
+    text-align: center; }
+    .inquiry dl dt {
+      padding: 0.1rem 0; }
+      .inquiry dl dt i {
+        background: #378DD8;
+        border-radius: 100%;
+        font-size: 0.3rem;
+        color: #fff; }
+    .inquiry dl dd {
+      padding-bottom: 0.1rem; }
+
+.home {
+  width: 100%;
+  height: auto;
+  margin-top: 0.1rem; }
+  .home .hom, .home .home-bot {
+    width: 100%;
+    height: 0.5rem;
+    background: #fff;
+    line-height: 0.5rem;
+    margin-bottom: 0.02rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    box-sizing: border-box;
+    line-height: 0.5rem; }
+    .home .hom i, .home .home-bot i {
+      font-size: 0.2rem; }
+    .home .hom span, .home .home-bot span {
+      font-size: 0.17rem; }
+    .home .hom .float-right, .home .home-bot .float-right {
+      line-height: 0.5rem;
+      font-size: 0.25rem; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  display: -webkit-flex;
+  border-top: 0.01rem #ccc solid; }
+
+dl {
+  -webkit-flex: 1;
+  text-align: center; }
+  dl dt {
+    padding-top: 0.05rem;
+    line-height: 1;
+    font-size: 0.2rem; }
+    dl dt i {
+      color: #595959; }
+  dl dd {
+    line-height: 2;
+    color: #595959; }
+
+.header i {
+  position: absolute;
+  left: 0.15rem;
+  top: 0.1rem;
+  font-size: 0.3rem;
+  color: #828282; }
+.header h1 {
+  text-align: center;
+  line-height: 0.5rem;
+  font-weight: 400; }
+
+.section .add {
+  width: 100%;
+  height: 1.5rem;
+  background: #3770D7;
+  padding-left: 0.2rem;
+  padding-top: 0.1rem;
+  padding-right: 0.2rem;
+  box-sizing: border-box; }
+  .section .add .add-home {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-bottom: 0.1rem; }
+    .section .add .add-home .tou {
+      width: 0.6rem;
+      height: 0.6rem;
+      padding-top: 0.1rem;
+      border-radius: 100%;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto; }
+      .section .add .add-home .tou > img {
+        width: 100%;
+        height: 100%; }
+    .section .add .add-home .vita {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      margin-top: 0.1rem; }
+      .section .add .add-home .vita strong {
+        font-weight: 400; }
+      .section .add .add-home .vita .vip {
+        margin-top: 0.2rem; }
+        .section .add .add-home .vita .vip b {
+          padding: 0.05rem 0.1rem;
+          border-radius: 0.1rem;
+          font-weight: 400;
+          border: 0.01rem #ccc solid;
+          margin-bottom: 0.1rem; }
+.section .doctor {
+  width: 100%;
+  height: auto;
+  padding-left: 0.1rem;
+  padding-right: 0.2rem;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: 0.2rem; }
+  .section .doctor h3 {
+    font-weight: 400;
+    line-height: 2; }
+  .section .doctor .teng {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    display: -webkit-flex; }
+    .section .doctor .teng dl {
+      -webkit-flex: 1;
+      height: auto; }
+      .section .doctor .teng dl dt {
+        height: 1rem;
+        display: -webkit-flex;
+        padding-right: 0.05rem;
+        padding-left: 0.1rem;
+        box-sizing: border-box; }
+        .section .doctor .teng dl dt img {
+          width: 100%;
+          height: 100%; }
+.section .healt-add {
+  width: 100%;
+  height: 0.5rem;
+  margin-bottom: 0.05rem;
+  background: #fff;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  box-sizing: border-box;
+  line-height: 0.5rem;
+  margin-top: 0.1rem; }
+  .section .healt-add h2 span {
+    font-size: 0.16rem;
+    font-weight: 400; }
+    .section .healt-add h2 span:last-child {
+      font-size: 0.14rem; }
+.section .head {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  box-sizing: border-box; }
+  .section .head dl {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex; }
+    .section .head dl dt {
+      width: 1rem;
+      height: 1rem;
+      padding-right: 0.1rem; }
+      .section .head dl dt img {
+        width: 100%;
+        height: 100%; }
+    .section .head dl dd {
+      text-align: left; }
+      .section .head dl dd h4 {
+        font-size: 0.17rem;
+        font-weight: 400; }
+      .section .head dl dd span {
+        border: 0.01rem #E4C8BC solid;
+        color: #E4C8BC;
+        font-size: 0.13rem;
+        border-radius: 0.3rem;
+        padding: 0.05rem; }
+.section .nei {
+  width: 100%;
+  height: auto;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  box-sizing: border-box;
+  background: #fff; }
+  .section .nei .baoz {
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem; }
+  .section .nei dl {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 0.05rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.02rem #F0F0F0 solid; }
+    .section .nei dl dt {
+      position: absolute;
+      left: 0.1rem;
+      top: 0.06rem; }
+      .section .nei dl dt img {
+        width: 0.7rem;
+        height: 0.7rem; }
+    .section .nei dl dd {
+      padding-left: 1.1rem;
+      text-align: left; }
+      .section .nei dl dd h4 {
+        font-size: 0.14rem; }
+      .section .nei dl dd span {
+        color: #D0B19F;
+        font-size: 0.16rem; }
+
+/*# sourceMappingURL=style.css.map */

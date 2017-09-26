@@ -1,0 +1,27 @@
+{
+  "mes":
+  [
+
+    {
+      "imgs":"images/xuan_1.jpg",
+      "title":"医生说 | 治疗慢性胃炎，膏方调养",
+      "number":"程艳梅 上海中医大学附属"
+
+
+    },
+    {
+      "imgs":"images/xun_2.jpg",
+      "title":"医生说 | 提防慢性胃炎，膏方调养",
+      "number":"徐艳秋 上海中医大学"
+
+
+    },
+    {
+      "imgs":"images/xuan_1.jpg",
+      "title":"医生说 | 双管齐下治疗白癜风",
+      "number":"周勇 中国人民解放军总医院"
+
+
+    }
+  ]
+}
